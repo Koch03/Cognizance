@@ -1,0 +1,12 @@
+This program will allow the user to check whether given no is divisible by 3 without using modulus operator
+int n,original
+Display "Enter the value of n"
+Accept n
+original=n
+n=n/3
+n=n*3
+if
+  n=original
+  print "True"
+else
+  print "False"

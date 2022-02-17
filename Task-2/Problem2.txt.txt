@@ -1,0 +1,11 @@
+This program will allow the user to find Nth no in fibonacci series
+int f,s,t,i,n,req
+Display "Enter the value of n"
+Accept n
+int f=0,s=1
+For(int i=0; i<=n; i++) {
+    req=f
+    t=f+s
+    f=s
+    s=t }
+print req
